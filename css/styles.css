@@ -8,12 +8,23 @@
     --Cornflower: #E7E9FC
     --Cloud: #F4F4FD
     --NAVY-BLUE-modal: #2E2F42
+    --Gray: #2E2F42
+    --White: #FFFFFF
+    --Dairy: #FCFCFC
 }
 body{
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .list
-.logo-link
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--Iris);
+}
 .sudio-logo
 .order-button
 .first.section
