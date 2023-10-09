@@ -1,0 +1,47 @@
+:root{
+    --Iris: #4d5ae5
+    --OCEAN: #404BBF
+    --Navy-blue: #2E2F42
+    --GREEN: #31D0AA
+    --Slate: #434455
+    --Light-Slate: #8E8F99
+    --Cornflower: #E7E9FC
+    --Cloud: #F4F4FD
+    --NAVY-BLUE-modal: #2E2F42
+    --Gray: #2E2F42
+    --White: #FFFFFF
+    --Dairy: #FCFCFC
+}
+body{
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    size: 16px;
+    color: var(--Slate);
+    background-color: var(#434455);
+    color: #434455;
+}
+.list{
+    list-style: none;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(4d5ae5);
+}
+.sudio-logo
+.order-button
+.first.section
+.first-header
+.second-header
+.nav-link
+.second-section
+.third-section
+.fourth-section
+.footer
+.header-third
+.footer-paragraph
+.list-paragraph
