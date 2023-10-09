@@ -30,7 +30,7 @@ body{
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(4d5ae5);
+    color: var(#4d5ae5);
 }
 .sudio-logo
 .order-button
@@ -45,7 +45,10 @@ body{
 .second-section
 .third-section
 .fourth-section
-.footer
+.footer{
+    background-color: #2e2f42;
+    color: var(#F4F4FD);
+}
 .header-third{
 
 }
