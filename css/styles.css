@@ -18,6 +18,7 @@ body{
     size: 16px;
     color: var(--Slate);
     background-color: var(#434455);
+    color: #434455;
 }
 .list{
     list-style: none;
