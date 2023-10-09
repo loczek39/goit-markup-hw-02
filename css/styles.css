@@ -13,9 +13,15 @@
     --Dairy: #FCFCFC
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    size: 16px;
+    color: var(--Slate);
+    background-color: var(--White);
 }
-.list
+.list{
+    list-style: none;
+}
 .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
