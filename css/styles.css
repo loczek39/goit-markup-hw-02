@@ -1,5 +1,5 @@
 :root
-{   --Iris: #4d5ae5
+  --Iris: #4d5ae5
     --OCEAN: #404BBF
     --Navy-blue: #2E2F42
     --GREEN: #31D0AA
@@ -11,13 +11,12 @@
     --Gray: #2E2F42
     --White: #FFFFFF
     --Dairy: #FCFCFC
-}
+
 .body
 {
     font-family:'Roboto', sans-serif;
     font-weight: 500;
     size: 16px;
-    color: var(--Slate);
     background-color: var(#434455);
     color: #434455;
 }
@@ -45,13 +44,13 @@
     color: var(#404BBF);}
 .link:active
 {
-     color: var(#404BBF);}
+     color: #404BBF;}
 .link:focus
 {
     color: var(#404BBF);}
-.sudio-logo
+.studio-logo
 {
-    color: var(#2E2F42);
+   color: #2E2F42;
 }
 .order-button{}
 .first.section{}
