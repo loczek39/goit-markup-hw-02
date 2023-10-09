@@ -1,5 +1,5 @@
 :root{
-    --Iris: #4D5AE5
+    --Iris: #4d5ae5
     --OCEAN: #404BBF
     --Navy-blue: #2E2F42
     --GREEN: #31D0AA
@@ -30,7 +30,7 @@ body{
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--Iris);
+    color: var(4d5ae5);
 }
 .sudio-logo
 .order-button
