@@ -1,3 +1,12 @@
+.body
+{
+    font-style: 'Roboto', sans-serif;
+    font-weight: 500;
+    size: 16px;
+    background-color: var(#ffffff);
+    
+    text-decoration-color: #434455;
+}
 :root
 {  --Iris: #4d5ae5
     --OCEAN: #404BBF
@@ -11,15 +20,6 @@
     --Gray: #2E2F42
     --White: #FFFFFF
     --Dairy: #FCFCFC
-}
-.body
-{
-    font-style: 'Roboto', sans-serif;
-    font-weight: 500;
-    size: 16px;
-    background-color: var(#ffffff);
-    
-    text-decoration-color: #434455;
 }
 .list
 {
