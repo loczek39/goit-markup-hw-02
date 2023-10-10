@@ -6,7 +6,7 @@
     size: 16px;
     color: #434455;
     background-color:#ffffff, white
-    text-decoration-color: #434455;
+
 }
 :root
 {  --Iris: #4d5ae5
@@ -109,12 +109,18 @@ background: var(--NAVY-BLUE, #2E2F42);
     color: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.32px;
 }
-.header-third{}
+.header-third{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-weight: 500;
+    font-size: 20px;
+}
 .footer-paragraph
 {color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-.list-paragraph {
+.list-paragraph {color: var(--SLATE, #434455);
+    font-family: inherit;
+    font-size: 16px;
 
 }
 .address{
@@ -132,7 +138,7 @@ background: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.04em;
     text-align: center;
     color: #4D5AE5;
-    background-color: var(--Cloud: #F4F4FD);
+    background-color: var(--Cloud, #F4F4FD);
 }
 .filter-button:hover{
     color: var(--white);
