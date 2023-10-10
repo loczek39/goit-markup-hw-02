@@ -1,6 +1,8 @@
 .body
 {
-    font-style: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
     font-weight: 500;
     size: 16px;
     background-color: var(#ffffff);
@@ -81,9 +83,9 @@
 }
 .filter-button
 {
-    font-family: inherit
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height 1.5;
+    line-height: 1.5;
     cursor: pointer;
 }
