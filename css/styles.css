@@ -88,4 +88,16 @@
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--Iris);
+    background-color: var(--cloud);
+}
+.filter-button:hover{
+    color: var(--white);
+    background-color: var(--OCEAN, #404BBF);
+}
+.filter-button:focus{
+    color: var(--white);
+    background-color: var(--OCEAN, #404BBF);
 }
