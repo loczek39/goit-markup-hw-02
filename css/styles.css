@@ -123,7 +123,7 @@ background: var(--NAVY-BLUE, #2E2F42);
 
 }
 .filter-button
-{
+{    /*button text*/
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -131,8 +131,8 @@ background: var(--NAVY-BLUE, #2E2F42);
     cursor: pointer;
     letter-spacing: 0.04em;
     text-align: center;
-    color: var(--Iris, #4D5AE5);
-    background-color: var(--cloud);
+    color: #4D5AE5;
+    background-color: var(--Cloud: #F4F4FD);
 }
 .filter-button:hover{
     color: var(--white);
