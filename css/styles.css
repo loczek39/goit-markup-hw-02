@@ -97,7 +97,6 @@ background: var(--NAVY-BLUE, #2E2F42);
     font-family: Roboto;
     font-style: normal;
 }
-.nav-link{}
 .second-section{}
 .third-section{}
 .fourth-section{}
@@ -106,12 +105,21 @@ background: var(--NAVY-BLUE, #2E2F42);
     background-color: #2e2f42;
     color: var(#F4F4FD);
 }
+.nav{
+    color: var(--NAVY-BLUE, #2E2F42);
+    letter-spacing: 0.32px;
+}
 .header-third{}
 .footer-paragraph
 {color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;}
 .list-paragraph {
+
+}
+.address{
+    color: var(--SLATE, #434455);
+    letter-spacing: 0.32px;
 
 }
 .filter-button
@@ -123,7 +131,7 @@ background: var(--NAVY-BLUE, #2E2F42);
     cursor: pointer;
     letter-spacing: 0.04em;
     text-align: center;
-    color: var(--Iris);
+    color: var(--Iris, #4D5AE5);
     background-color: var(--cloud);
 }
 .filter-button:hover{
