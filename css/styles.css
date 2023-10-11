@@ -34,7 +34,7 @@
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--Iris);
     
 }
 .link
@@ -43,26 +43,26 @@
 }
 .link:hover
 {
-    color: var( #4D5AE5);}
+    color: var(--Iris);}
 .link:active
 {
-     color:  #4D5AE5;}
+     color: var(--Iris);}
 .link:focus
 {
-    color: var(#4D5AE5);}
+    color: var(--Iris);}
 .studio-logo
 {
-   color: #2E2F42;
+   color: var(--Gray);
 }
-.order-button{
+.order-button:roo{
     border-radius: 4px;
-background: var(--IRIS, #4D5AE5);
+background: var(--IRIS,);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 display: inline-flex;
 padding: 16px 32px;
 align-items: flex-start;
 gap: 10px;
-color: var(--WHITE, #FFF);
+color: var(--White);
 
 /* Button Text */
 font-family: Roboto;
@@ -73,16 +73,16 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
 }
 .order-button:hover{border-radius: 4px;
-    background: var(--OCEAN, #404BBF);
+    background: var(--OCEAN,);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .first-section{
     width: 1440px;
 height: 600px;
 flex-shrink: 0;
-background: var(--NAVY-BLUE, #2E2F42);
+background: var(--NAVY-BLUE-modal);
 }
-.first-header{color: var(--WHITE, #FFF);
+.first-header{color: var(--White);
     text-align: center;
     /* Header 1 */
     font-family: Roboto;
@@ -102,39 +102,39 @@ background: var(--NAVY-BLUE, #2E2F42);
 .fourth-section{}
 .footer
 {
-    background-color: #2e2f42;
-    color: var(#F4F4FD);
+    background-color: var(--Gray);
+    color: var(--Cloud);
 }
 .nav{
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--NAVY-BLUE-modal);
     letter-spacing: 0.32px;
 }
 .header-third{
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--NAVY-BLUE-modal);
     font-weight: 500;
     font-size: 20px;
 }
 .footer-paragraph
-{color: #F4F4FD;
+{color: var(--Cloud);
     line-height: 1.5;
     letter-spacing: 0.02em;}
-.list-paragraph {color: var(--SLATE, #434455);
+.list-paragraph {color: var(--Slate);
     font-family: inherit;
     font-size: 16px;
     letter-spacing: 0.32px;
 
 }
 .address{
-    color: var(--SLATE, #434455);
+    color: var(--Slate);
     letter-spacing: 0.32px;
     font-style: normal;
 
 }
 .address:hover{
-    color: #404BBF;
+    color: var(--OCEAN);
 }
 .address:focus{
-    color: #404BBF;
+    color: var(--OCEAN);
 }
 .filter-button
 {    /*button text*/
@@ -145,15 +145,15 @@ background: var(--NAVY-BLUE, #2E2F42);
     cursor: pointer;
     letter-spacing: 0.04em;
     text-align: center;
-    color: #4D5AE5;
-    background-color: var(--Cloud, #F4F4FD);
+    color: var(--Iris);
+    background-color: var(--Cloud);
 }
 .filter-button:hover{
     color: var(--white);
-    background-color: var(--OCEAN, #404BBF);
+    background-color: var(--OCEAN);
 }
 .filter-button:focus{
     color: var(--white);
-    background-color: var(--OCEAN, #404BBF);
+    background-color: var(--OCEAN);
 }
-.studio-logo-footer{color: var(--CLOUD, #F4F4FD)}
+.studio-logo-footer{color: var(--CLOUD)}
