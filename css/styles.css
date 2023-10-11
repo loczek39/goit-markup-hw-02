@@ -9,7 +9,7 @@
 
 }
 :root
-{    --Iris: #4d5ae5;
+{   --Iris: #4d5ae5;
     --OCEAN: #404BBF;
     --Navy-blue: #2E2F42;
     --GREEN: #31D0AA;
@@ -127,7 +127,14 @@ background: var(--NAVY-BLUE, #2E2F42);
 .address{
     color: var(--SLATE, #434455);
     letter-spacing: 0.32px;
+    font-style: normal;
 
+}
+.address:hover{
+    color: #404BBF;
+}
+.address:focus{
+    color: #404BBF;
 }
 .filter-button
 {    /*button text*/
