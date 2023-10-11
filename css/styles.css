@@ -121,6 +121,7 @@ background: var(--NAVY-BLUE, #2E2F42);
 .list-paragraph {color: var(--SLATE, #434455);
     font-family: inherit;
     font-size: 16px;
+    letter-spacing: 0.32px;
 
 }
 .address{
@@ -148,3 +149,4 @@ background: var(--NAVY-BLUE, #2E2F42);
     color: var(--white);
     background-color: var(--OCEAN, #404BBF);
 }
+.studio-logo-footer{color: var(--CLOUD, #F4F4FD)}
