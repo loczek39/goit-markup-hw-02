@@ -9,18 +9,18 @@
 
 }
 :root
-{  --Iris: #4d5ae5
-    --OCEAN: #404BBF
-    --Navy-blue: #2E2F42
-    --GREEN: #31D0AA
-    --Slate: #434455
-    --Light-Slate: #8E8F99
-    --Cornflower: #E7E9FC
-    --Cloud: #F4F4FD
-    --NAVY-BLUE-modal: #2E2F42
-    --Gray: #2E2F42
-    --White: #FFFFFF
-    --Dairy: #FCFCFC
+{    --Iris: #4d5ae5;
+    --OCEAN: #404BBF;
+    --Navy-blue: #2E2F42;
+    --GREEN: #31D0AA;
+    --Slate: #434455;
+    --Light-Slate: #8E8F99;
+    --Cornflower: #E7E9FC;
+    --Cloud: #F4F4FD;
+    --NAVY-BLUE-modal: #2E2F42;
+    --Gray: #2E2F42;
+    --White: #FFFFFF;
+    --Dairy: #FCFCFC;
 }
 .list
 {
