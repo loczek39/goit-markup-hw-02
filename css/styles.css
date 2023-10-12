@@ -23,23 +23,20 @@
     --White: #FFFFFF;
     --Dairy: #FCFCFC;
 }
-.list
-{
-    list-style: none;
-}
 .logo
 {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1.17,;
+    line-height: 1.17;
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--Iris);
 }
 .logo:hover{color: var(--OCEAN)}
-.link
+.logo.list
 {
+    list-style: none;
     text-decoration: none;
     line-height: 1.5;
 }
@@ -164,10 +161,19 @@ background: var(--NAVY-BLUE-modal);
 }
 .studio-logo-footer{
     color: var(--Cloud)}
-.header-sec-portfolio{
-    font-weight: 500;
+.portfolio-list{
+    background-color: var(--White);
+   
+}
+.smaller-captions{font-family: roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.32;
+color: var(--Slate);}
+.photo-captions{ font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--Navy-blue #2E2F42);
-}
+    color: var(--Navy-blue #2E2F42)}
