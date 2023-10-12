@@ -31,12 +31,11 @@
 {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1.17;
+    line-height: 1.17,;
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
-    color: var(--Iris #4D5AE5);
+    color: var(--Iris);
 }
 .logo:hover{color: var(--OCEAN)}
 .link
@@ -136,8 +135,6 @@ background: var(--NAVY-BLUE-modal);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    font-style: normal;
-
 }
 .address:hover{
     color: var(--OCEAN);
