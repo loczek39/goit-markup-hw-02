@@ -109,6 +109,9 @@ background: var(--NAVY-BLUE-modal);
     color: var(--NAVY-BLUE-modal);
     letter-spacing: 0.32px;
 }
+.nav:hover{
+    color: var(--OCEAN: #404BBF;);
+}
 .header-third{
     color: var(--NAVY-BLUE-modal);
     font-weight: 500;
@@ -158,4 +161,5 @@ background: var(--NAVY-BLUE-modal);
     color: var(--white);
     background-color: var(--OCEAN);
 }
-.studio-logo-footer{color: var(--CLOUD)}
+.studio-logo-footer{
+    color: var(--Cloud)}
