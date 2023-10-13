@@ -94,6 +94,7 @@ background: var(--NAVY-BLUE-modal);
     line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 .footer
 {
@@ -192,4 +193,10 @@ color: var(--Slate);}
     font-size: 500;
     line-height: 1.5;
     font-family: "Roboto";
+}
+.fourth-section{
+    background-color: #F4F4FD;
+}
+.card{
+    background-color: #FFFFFF;
 }
