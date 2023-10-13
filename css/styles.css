@@ -61,7 +61,7 @@ cursor: pointer;
 
 
 /* Button Text */
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -84,7 +84,7 @@ background: var(--NAVY-BLUE-modal);
 .first-header{color: var(--White);
     text-align: center;
     /* Header 1 */
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
