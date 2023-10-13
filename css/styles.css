@@ -78,7 +78,7 @@ letter-spacing: 0.04em;
 background: var(--NAVY-BLUE-modal);
 }
 .first-header{color: var(--White);
-    
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-style: normal;
@@ -87,6 +87,7 @@ background: var(--NAVY-BLUE-modal);
     letter-spacing: 1.12px;}
 .second-header
 {
+    text-align: center;
     font-size: 36px;
     font-family: Roboto;
     font-style: normal;
@@ -145,7 +146,7 @@ background: var(--NAVY-BLUE-modal);
 }
 .filter-button
 {    /*button text*/
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
