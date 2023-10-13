@@ -100,6 +100,7 @@ background: var(--NAVY-BLUE-modal);
 {
     background-color: var(--Gray);
     color: var(--Cloud);
+    line-height: 1.17;
 }
 .nav{
     color: var(--NAVY-BLUE-modal);
@@ -153,8 +154,8 @@ background: var(--NAVY-BLUE-modal);
     background-color: var(--OCEAN);
 }
 .filter-button:focus{
-    color: var(--OCEAN);
-    background-color: var(--White)
+    color: var(--White);
+    background-color:var(--OCEAN);
 }
 .studio-logo-footer{
     color: var(--Cloud)}
