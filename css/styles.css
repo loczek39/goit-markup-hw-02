@@ -100,6 +100,7 @@ background: var(--NAVY-BLUE-modal);
     color: var(--Cloud);
     line-height: 1.17;
 }
+.nav.link{font-weight: 500;}
 .nav{
     color: var(--NAVY-BLUE-modal);
     letter-spacing: 0.32px;
