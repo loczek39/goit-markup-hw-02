@@ -34,7 +34,7 @@
     color: var(--Iris);
 }
 .logo:hover{color: var(--OCEAN)}
-.logo.list
+.logo.link
 {
     list-style: none;
     text-decoration: none;
