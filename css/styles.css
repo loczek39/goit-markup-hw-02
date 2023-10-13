@@ -78,8 +78,7 @@ letter-spacing: 0.04em;
 background: var(--NAVY-BLUE-modal);
 }
 .first-header{color: var(--White);
-    text-align: center;
-    /* Header 1 */
+    
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-style: normal;
@@ -92,7 +91,6 @@ background: var(--NAVY-BLUE-modal);
     font-family: Roboto;
     font-style: normal;
     line-height: 1.11;
-    text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
 }
@@ -152,7 +150,6 @@ background: var(--NAVY-BLUE-modal);
     line-height: 1.5;
     cursor: pointer;
     letter-spacing: 0.04em;
-    text-align: center;
     color: var(--Iris);
     background-color: var(--Cloud);
 }
