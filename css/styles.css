@@ -113,6 +113,8 @@ background: var(--NAVY-BLUE-modal);
     color: var(--NAVY-BLUE-modal);
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .footer-paragraph
 {color: var(--Cloud);
@@ -122,6 +124,7 @@ background: var(--NAVY-BLUE-modal);
     font-family: inherit;
     font-size: 16px;
     letter-spacing: 0.32px;
+    line-height: 1.5;
 
 }
 .address{
