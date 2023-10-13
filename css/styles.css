@@ -38,7 +38,8 @@
 {
     list-style: none;
     text-decoration: none;
-    line-height: 1.5;
+    line-height: 1.17;
+
 }
 .link:hover
 {
@@ -137,6 +138,7 @@ background: var(--NAVY-BLUE-modal);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
 }
 .address:hover{
     color: var(--OCEAN);
