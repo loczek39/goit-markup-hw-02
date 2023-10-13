@@ -34,11 +34,12 @@
     color: var(--Iris);
 }
 .logo:hover{color: var(--OCEAN)}
-.logo.list
+.logo.link
 {
     list-style: none;
     text-decoration: none;
-    line-height: 1.5;
+    line-height: 1.17;
+
 }
 .link:hover
 {
@@ -53,27 +54,27 @@
 {
    color: var(--Gray);
 }
-.order-button:roo{
+.order-button{
     border-radius: 4px;
-background: var(--IRIS,);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-display: inline-flex;
-padding: 16px 32px;
-align-items: flex-start;
-gap: 10px;
+background:var(--Iris);
 color: var(--White);
+cursor: pointer;
+
 
 /* Button Text */
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 .order-button:hover{border-radius: 4px;
     background: var(--OCEAN);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.order-button:focus{
+    background-color: var(--OCEAN);
 }
 .first-section{
     width: 1440px;
@@ -84,25 +85,27 @@ background: var(--NAVY-BLUE-modal);
 .first-header{color: var(--White);
     text-align: center;
     /* Header 1 */
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 107.143% */
+    line-height: 1.07;
     letter-spacing: 1.12px;}
 .second-header
 {
     font-size: 36px;
     font-family: Roboto;
     font-style: normal;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
-.second-section{}
-.third-section{}
-.fourth-section{}
 .footer
 {
     background-color: var(--Gray);
     color: var(--Cloud);
+    line-height: 1.17;
 }
 .nav{
     color: var(--NAVY-BLUE-modal);
@@ -115,6 +118,8 @@ background: var(--NAVY-BLUE-modal);
     color: var(--NAVY-BLUE-modal);
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .footer-paragraph
 {color: var(--Cloud);
@@ -124,6 +129,7 @@ background: var(--NAVY-BLUE-modal);
     font-family: inherit;
     font-size: 16px;
     letter-spacing: 0.32px;
+    line-height: 1.5;
 
 }
 .address{
@@ -132,6 +138,7 @@ background: var(--NAVY-BLUE-modal);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
 }
 .address:hover{
     color: var(--OCEAN);
@@ -156,8 +163,8 @@ background: var(--NAVY-BLUE-modal);
     background-color: var(--OCEAN);
 }
 .filter-button:focus{
-    color: var(--OCEAN);
-    background-color: var(--White)
+    color: var(--White);
+    background-color:var(--OCEAN);
 }
 .studio-logo-footer{
     color: var(--Cloud)}
@@ -171,11 +178,12 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.32;
+letter-spacing: 0.02em;
 color: var(--Slate);}
 .photo-captions
 { font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--Navy-blue #2E2F42)}
+    color: var(--Navy-blue)}
+.link{text-decoration: none;}
